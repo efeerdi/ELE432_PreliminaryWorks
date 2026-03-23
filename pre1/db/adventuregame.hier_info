@@ -1,0 +1,70 @@
+|adventure_game
+clk => clk.IN2
+reset => reset.IN2
+n => n.IN1
+s => s.IN1
+e => e.IN1
+w => w.IN1
+win << room_fsm:U_ROOM.win
+die << room_fsm:U_ROOM.die
+
+
+|adventure_game|room_fsm:U_ROOM
+clk => state~1.DATAIN
+reset => state~3.DATAIN
+n => next_state.OUTPUTSELECT
+n => next_state.OUTPUTSELECT
+n => next_state.OUTPUTSELECT
+n => next_state.OUTPUTSELECT
+n => next_state.OUTPUTSELECT
+n => next_state.OUTPUTSELECT
+n => next_state.OUTPUTSELECT
+s => next_state.OUTPUTSELECT
+s => next_state.OUTPUTSELECT
+s => next_state.OUTPUTSELECT
+s => next_state.OUTPUTSELECT
+s => next_state.OUTPUTSELECT
+s => next_state.OUTPUTSELECT
+s => next_state.OUTPUTSELECT
+e => next_state.OUTPUTSELECT
+e => next_state.OUTPUTSELECT
+e => next_state.OUTPUTSELECT
+e => next_state.OUTPUTSELECT
+e => next_state.OUTPUTSELECT
+e => next_state.OUTPUTSELECT
+e => next_state.OUTPUTSELECT
+e => next_state.OUTPUTSELECT
+e => next_state.OUTPUTSELECT
+e => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+w => next_state.OUTPUTSELECT
+has_sword => Selector5.IN6
+has_sword => Selector6.IN6
+room[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+room[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+room[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+win <= win.DB_MAX_OUTPUT_PORT_TYPE
+die <= die.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adventure_game|sword_fsm:U_SWORD
+clk => has_sword~reg0.CLK
+reset => has_sword~reg0.ACLR
+room[0] => Equal0.IN1
+room[1] => Equal0.IN0
+room[2] => Equal0.IN2
+has_sword <= has_sword~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
