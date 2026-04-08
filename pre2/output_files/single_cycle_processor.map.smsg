@@ -1,0 +1,2 @@
+Warning (10273): Verilog HDL warning at extend.sv(19): extended using "x" or "z" File: C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/extend.sv Line: 19
+Warning (10273): Verilog HDL warning at alu.sv(14): extended using "x" or "z" File: C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/alu.sv Line: 14

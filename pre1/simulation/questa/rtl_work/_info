@@ -1,0 +1,133 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1774293089
+V6iNXRoOci;FgMLFa<gL4a2
+04 17 4 work tb_adventure_game fast 0
+=1-d4f32df4ab8c-69c19060-c8-55c
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U4 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vadventure_game
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/topmodule.sv
+Z2 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z3 !s110 1774293083
+!i10b 1
+!s100 zDC?MBzo7J`iUTN3d]Ean2
+IXa[G?M[oYFAGZ`ee<:Yf73
+S1
+R1
+w1774284359
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/topmodule.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/topmodule.sv
+!i122 2
+L0 1 35
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z6 !s108 1774293083.000000
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/topmodule.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/topmodule.sv|
+!i113 0
+Z7 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -sv -work work {+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0 defaultOptions 1085333592
+vroom_fsm
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/room_fsm.sv
+R2
+!s110 1774293082
+!i10b 1
+!s100 kO:n;2zUl7=d7Dl9mDoI[0
+I;n38>4;lMck1mbU[4Y9b41
+S1
+R1
+w1774284250
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/room_fsm.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/room_fsm.sv
+!i122 0
+L0 1 71
+R4
+R5
+r1
+!s85 0
+31
+Z10 !s108 1774293082.000000
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/room_fsm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/room_fsm.sv|
+!i113 0
+R7
+R8
+R9
+vsword_fsm
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/sword_fsm.sv
+R2
+R3
+!i10b 1
+!s100 VFB@92Ci1[e5nkEHFa=0c1
+IdiQHA6=OK_zdogN;8igRD3
+S1
+R1
+w1774284313
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/sword_fsm.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/sword_fsm.sv
+!i122 1
+L0 1 20
+R4
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/sword_fsm.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/sword_fsm.sv|
+!i113 0
+R7
+R8
+R9
+vtb_adventure_game
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/tb_adventure_game.sv
+R2
+R3
+!i10b 1
+!s100 6hBZnC9VXGncbeEbf1f>_1
+I:;@9LPOA@F13>_dhj8g4d3
+S1
+R1
+w1774285096
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/tb_adventure_game.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/tb_adventure_game.sv
+!i122 3
+L0 3 87
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/tb_adventure_game.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre1/tb_adventure_game.sv|
+!i113 0
+R7
+R8
+R9

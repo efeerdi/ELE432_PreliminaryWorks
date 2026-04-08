@@ -1,0 +1,11 @@
+BEGIN 1:riscvsingle:fast:work
+    ALUResult :  1:testbench:fast:work
+END 
+BEGIN 1:top:fast:work
+    Instr :  1:testbench:fast:work
+    PC :  1:testbench:fast:work
+END 
+BEGIN 1:datapath:fast:work
+    SrcB :  1:testbench:fast:work
+    SrcA :  1:testbench:fast:work
+END 

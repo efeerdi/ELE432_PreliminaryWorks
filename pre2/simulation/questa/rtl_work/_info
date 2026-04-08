@@ -1,0 +1,445 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1775631828
+VG[LA28;?0XK5^fBJ<TDQU3
+04 9 4 work testbench fast 0
+=1-d4f32df4ab8c-69d5fdd3-81-549c
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U18 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vadder
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/adder.sv
+Z2 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z3 !s110 1775631824
+!i10b 1
+!s100 D>a]?O_3VUmZ`J?H:e3ED2
+Id^glPTEnFdG_02U;d=25a2
+S1
+R1
+w1775413343
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/adder.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/adder.sv
+!i122 5
+L0 1 4
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z6 !s108 1775631824.000000
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/adder.sv|
+!i113 0
+Z7 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -sv -work work {+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0 defaultOptions 1085333592
+valu
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/alu.sv
+R2
+Z10 !s110 1775631826
+!i10b 1
+!s100 JBbSc`>d7?gN<9IGEAV8@3
+IHMdPaY;a>CLo8DE;2g>:n0
+S1
+R1
+w1775495945
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/alu.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/alu.sv
+!i122 13
+L0 1 21
+R4
+R5
+r1
+!s85 0
+31
+Z11 !s108 1775631826.000000
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/alu.sv|
+!i113 0
+R7
+R8
+R9
+valudec
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/aludec.sv
+R2
+Z12 !s110 1775631823
+!i10b 1
+!s100 H45<dCY<PE]jQi6;2DlO02
+IdBWg`JDgiHoICj6Xln?2]1
+S1
+R1
+w1775550181
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/aludec.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/aludec.sv
+!i122 3
+L0 1 25
+R4
+R5
+r1
+!s85 0
+31
+Z13 !s108 1775631823.000000
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/aludec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/aludec.sv|
+!i113 0
+R7
+R8
+R9
+vcontroller
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/controller.sv
+R2
+R12
+!i10b 1
+!s100 [e=VC9[YMiAa`H>7>nm[32
+I=9o_mIzc0oaMAhO]O@a8i3
+S1
+R1
+w1775412167
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/controller.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/controller.sv
+!i122 1
+L0 1 17
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/controller.sv|
+!i113 0
+R7
+R8
+R9
+vdatapath
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/datapath.sv
+R2
+R3
+!i10b 1
+!s100 _9QTGVVfHJE7?aKDdLTMm0
+I:R72E8XJ1UZHMz_NhcVV02
+S1
+R1
+w1775412311
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/datapath.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/datapath.sv
+!i122 4
+L0 1 30
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/datapath.sv|
+!i113 0
+R7
+R8
+R9
+vdmem
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/dmem.sv
+R2
+Z14 !s110 1775631825
+!i10b 1
+!s100 B`_GWjb6O6Kd=I=>1aOkJ2
+I@lWCQ<k=J0P1=^M:kmfW73
+S1
+R1
+w1775415747
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/dmem.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/dmem.sv
+!i122 11
+Z15 L0 1 8
+R4
+R5
+r1
+!s85 0
+31
+Z16 !s108 1775631825.000000
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/dmem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/dmem.sv|
+!i113 0
+R7
+R8
+R9
+vextend
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/extend.sv
+R2
+R3
+!i10b 1
+!s100 l15fS1oLN:IY5DT9NREB20
+I8?2MPndGCmXX<0E2N:YSc3
+S1
+R1
+w1775415209
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/extend.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/extend.sv
+!i122 6
+Z17 L0 1 22
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/extend.sv|
+!i113 0
+R7
+R8
+R9
+vflopr
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/flopr.sv
+R2
+R3
+!i10b 1
+!s100 dK=KBe_41J2>zYli41V=62
+IPT]cP8J6f]2jf`5mD`kDZ3
+S1
+R1
+w1775415354
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/flopr.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/flopr.sv
+!i122 7
+Z18 L0 1 10
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/flopr.sv|
+!i113 0
+R7
+R8
+R9
+vimem
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/imem.sv
+R2
+R10
+!i10b 1
+!s100 E[o=YGobg4ggGQ@_TDAN_2
+I7>Z_TPJANgb[Zfg2zkC3c0
+S1
+R1
+w1775470982
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/imem.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/imem.sv
+!i122 14
+L0 1 7
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/imem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/imem.sv|
+!i113 0
+R7
+R8
+R9
+vmaindec
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/maindec.sv
+R2
+R12
+!i10b 1
+!s100 ]I2WRH:aD<^DXSm5][XQN2
+I2MWBUX[RR0M:Dl2^HBTVA1
+S1
+R1
+w1775412191
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/maindec.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/maindec.sv
+!i122 2
+R17
+R4
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/maindec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/maindec.sv|
+!i113 0
+R7
+R8
+R9
+vmux2
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/mux2.sv
+R2
+R3
+!i10b 1
+!s100 chEUMf29dLm;hkSPWAcdA0
+I]Dz6Q2a>GklF3?fNKY:bL1
+S1
+R1
+w1775415471
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/mux2.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/mux2.sv
+!i122 8
+R15
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/mux2.sv|
+!i113 0
+R7
+R8
+R9
+vmux3
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/mux3.sv
+R2
+R3
+!i10b 1
+!s100 jCleHQjzS@]j6:X[7Y_I91
+IOL>e@;=`[D1=0VDc90OF@2
+S1
+R1
+w1775415469
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/mux3.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/mux3.sv
+!i122 9
+R15
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/mux3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/mux3.sv|
+!i113 0
+R7
+R8
+R9
+vregfile
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/regfile.sv
+R2
+R14
+!i10b 1
+!s100 DXEl[`m_7<R^efdDmEedl2
+IF`UQ?_KA2AMX][K_o846:3
+S1
+R1
+w1775495356
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/regfile.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/regfile.sv
+!i122 12
+L0 1 20
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/regfile.sv|
+!i113 0
+R7
+R8
+R9
+vriscvsingle
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/single_cycle_processor.sv
+R2
+R12
+!i10b 1
+!s100 ;l_]@eG?h_C>?eHiEA2Kk3
+IDhUlC[SZZVz4QQo<Ke`G]0
+S1
+R1
+w1775412154
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/single_cycle_processor.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/single_cycle_processor.sv
+!i122 0
+L0 1 19
+R4
+R5
+r1
+!s85 0
+31
+!s108 1775631822.000000
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/single_cycle_processor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/single_cycle_processor.sv|
+!i113 0
+R7
+R8
+R9
+vtestbench
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/testbench.sv
+R2
+R10
+!i10b 1
+!s100 [_T=Rbe`NhkobB`n773oT1
+IYZfi>]dh354F>Rj=Kn<Y91
+S1
+R1
+w1775550182
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/testbench.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/testbench.sv
+!i122 15
+L0 1 40
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/testbench.sv|
+!i113 0
+R7
+R8
+R9
+vtop
+2C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/top.sv
+R2
+R14
+!i10b 1
+!s100 DB>fGm2ZoY8<<5Q:oQmL^3
+I[CWX=gIJ@oPKPTh`Cbc9A0
+S1
+R1
+w1775415688
+8C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/top.sv
+FC:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/top.sv
+!i122 10
+R18
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2|C:/Users/jenpz/Documents/Ders/ele432/quartus projects/pre2/top.sv|
+!i113 0
+R7
+R8
+R9
