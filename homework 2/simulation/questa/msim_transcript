@@ -1,0 +1,113 @@
+# Reading pref.tcl
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do hw2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Altera Starter FPGA Edition-64 vmap 2025.2 Lib Mapping Utility 2025.05 May 31 2025
+# vmap work rtl_work 
+# ** Note: (vmap-220) 'C:/altera/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# Copying C:/altera/25.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus\ projects/homework\ 2 {C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2/controller.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:26:13 on Apr 24,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2" C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2/controller.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 00:26:13 on Apr 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus\ projects/homework\ 2 {C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2/mainfsm.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:26:13 on Apr 24,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2" C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2/mainfsm.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module mainfsm
+# 
+# Top level modules:
+# 	mainfsm
+# End time: 00:26:13 on Apr 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus\ projects/homework\ 2 {C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2/instrdec.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:26:13 on Apr 24,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2" C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2/instrdec.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module instrdec
+# 
+# Top level modules:
+# 	instrdec
+# End time: 00:26:14 on Apr 24,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus\ projects/homework\ 2 {C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2/aludec.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:26:14 on Apr 24,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2" C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2/aludec.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module aludec
+# 
+# Top level modules:
+# 	aludec
+# End time: 00:26:14 on Apr 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus\ projects/homework\ 2 {C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2/ELE432_controller_testbenchsv_14-04-2026.sv}
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 00:26:14 on Apr 24,2026
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2" C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2/ELE432_controller_testbenchsv_14-04-2026.sv 
+# ** Note: (vlog-220) 'modelsim.ini' is used as the ini file.
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:26:14 on Apr 24,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# ** Note: (vsim-220) 'modelsim.ini' is used as the ini file.
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 00:26:14 on Apr 24,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'modelsim.ini' is used as the ini file.
+# ** Note: (vopt-143) Recognized 1 FSM in module "mainfsm(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.testbench(fast)
+# Loading work.controller(fast)
+# Loading work.mainfsm(fast)
+# Loading work.aludec(fast)
+# Loading work.instrdec(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#         40 tests completed with          0 errors
+# ** Note: $stop    : C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2/ELE432_controller_testbenchsv_14-04-2026.sv(81)
+#    Time: 415 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/jenpz/Documents/Ders/ele432/quartus projects/homework 2/ELE432_controller_testbenchsv_14-04-2026.sv line 81
+# Causality operation skipped due to absence of debug database file
+# End time: 00:50:26 on Apr 24,2026, Elapsed time: 0:24:12
+# Errors: 0, Warnings: 1
