@@ -1,0 +1,14 @@
+
+State Machine - |top|riscv:rv|controller:c|mainfsm:fsm|state
+Name state.B_BEQ state.J_JAL state.EXECUTEI state.ALUWB state.EXECUTER state.MEMWRITE state.MEMWB state.MEMREAD state.MEMADR state.DECODE state.FETCH 
+state.FETCH 0 0 0 0 0 0 0 0 0 0 0 
+state.DECODE 0 0 0 0 0 0 0 0 0 1 1 
+state.MEMADR 0 0 0 0 0 0 0 0 1 0 1 
+state.MEMREAD 0 0 0 0 0 0 0 1 0 0 1 
+state.MEMWB 0 0 0 0 0 0 1 0 0 0 1 
+state.MEMWRITE 0 0 0 0 0 1 0 0 0 0 1 
+state.EXECUTER 0 0 0 0 1 0 0 0 0 0 1 
+state.ALUWB 0 0 0 1 0 0 0 0 0 0 1 
+state.EXECUTEI 0 0 1 0 0 0 0 0 0 0 1 
+state.J_JAL 0 1 0 0 0 0 0 0 0 0 1 
+state.B_BEQ 1 0 0 0 0 0 0 0 0 0 1 

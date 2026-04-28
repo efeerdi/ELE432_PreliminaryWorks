@@ -1,0 +1,23 @@
+// 3. RISC-V Wrapper
+module riscv(
+    input  logic        clk, reset,
+    input  logic [31:0] ReadData,
+    output logic        MemWrite,
+    output logic [31:0] Adr, WriteData
+);
+
+    logic       Zero, PCWrite, AdrSrc, IRWrite, RegWrite;
+    logic [1:0] ResultSrc, ALUSrcA, ALUSrcB, ImmSrc;
+    logic [2:0] ALUControl;
+    logic [31:0] Instr;
+
+    controller c(clk, reset, Instr[6:0], Instr[14:12], Instr[30], Zero,
+                 ImmSrc, ALUSrcA, ALUSrcB, ResultSrc, AdrSrc, ALUControl,
+                 IRWrite, PCWrite, RegWrite, MemWrite);
+
+    datapath dp(clk, reset,
+                PCWrite, AdrSrc, IRWrite, RegWrite,
+                ResultSrc, ALUSrcA, ALUSrcB, ImmSrc, ALUControl,
+                Zero, ReadData, Instr, Adr, WriteData);
+
+endmodule

@@ -1,0 +1,7 @@
+BEGIN 1:datapath:fast:work
+    PC :  1:testbench:fast:work
+    SrcA :  1:testbench:fast:work
+    ALUResult :  1:testbench:fast:work
+    Instr :  1:testbench:fast:work
+    SrcB :  1:testbench:fast:work
+END 
